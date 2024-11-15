@@ -2,8 +2,6 @@
 //  SceneDelegate.swift
 //  PlacesErrorExample
 //
-//  Created by Aleksandr Honcharov on 14.11.2024.
-//
 
 import UIKit
 

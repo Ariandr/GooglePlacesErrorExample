@@ -6,27 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		55F1371A2CE638810050F228 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55F136FB2CE6387F0050F228 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55F137022CE6387F0050F228;
-			remoteInfo = PlacesErrorExample;
-		};
-		55F137242CE638810050F228 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55F136FB2CE6387F0050F228 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55F137022CE6387F0050F228;
-			remoteInfo = PlacesErrorExample;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		CC085AB34B68FED7DAAB56E0 /* Pods_PlacesErrorExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D391B6AE46215AC3430BD73 /* Pods_PlacesErrorExample.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55F137032CE6387F0050F228 /* PlacesErrorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacesErrorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55F137192CE638810050F228 /* PlacesErrorExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesErrorExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55F137232CE638810050F228 /* PlacesErrorExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesErrorExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D391B6AE46215AC3430BD73 /* Pods_PlacesErrorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlacesErrorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06028241FADFE7399D45A01 /* Pods-PlacesErrorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesErrorExample.release.xcconfig"; path = "Target Support Files/Pods-PlacesErrorExample/Pods-PlacesErrorExample.release.xcconfig"; sourceTree = "<group>"; };
+		EB137E5E51580E97AAB7282A /* Pods-PlacesErrorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesErrorExample.debug.xcconfig"; path = "Target Support Files/Pods-PlacesErrorExample/Pods-PlacesErrorExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -48,16 +36,6 @@
 			path = PlacesErrorExample;
 			sourceTree = "<group>";
 		};
-		55F1371C2CE638810050F228 /* PlacesErrorExampleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PlacesErrorExampleTests;
-			sourceTree = "<group>";
-		};
-		55F137262CE638810050F228 /* PlacesErrorExampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PlacesErrorExampleUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,33 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55F137162CE638810050F228 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55F137202CE638810050F228 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CC085AB34B68FED7DAAB56E0 /* Pods_PlacesErrorExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001FB94F91DEEA827F3D5F9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D391B6AE46215AC3430BD73 /* Pods_PlacesErrorExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FFB84B4171A1B617CD1F70A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB137E5E51580E97AAB7282A /* Pods-PlacesErrorExample.debug.xcconfig */,
+				A06028241FADFE7399D45A01 /* Pods-PlacesErrorExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		55F136FA2CE6387F0050F228 = {
 			isa = PBXGroup;
 			children = (
 				55F137052CE6387F0050F228 /* PlacesErrorExample */,
-				55F1371C2CE638810050F228 /* PlacesErrorExampleTests */,
-				55F137262CE638810050F228 /* PlacesErrorExampleUITests */,
 				55F137042CE6387F0050F228 /* Products */,
+				2FFB84B4171A1B617CD1F70A /* Pods */,
+				001FB94F91DEEA827F3D5F9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				55F137032CE6387F0050F228 /* PlacesErrorExample.app */,
-				55F137192CE638810050F228 /* PlacesErrorExampleTests.xctest */,
-				55F137232CE638810050F228 /* PlacesErrorExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55F1372C2CE638810050F228 /* Build configuration list for PBXNativeTarget "PlacesErrorExample" */;
 			buildPhases = (
+				3F1CA65EB09771EF05A96BB1 /* [CP] Check Pods Manifest.lock */,
 				55F136FF2CE6387F0050F228 /* Sources */,
 				55F137002CE6387F0050F228 /* Frameworks */,
 				55F137012CE6387F0050F228 /* Resources */,
+				C9A8353EE30858E007B37E04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,57 +106,9 @@
 				55F137052CE6387F0050F228 /* PlacesErrorExample */,
 			);
 			name = PlacesErrorExample;
-			packageProductDependencies = (
-			);
 			productName = PlacesErrorExample;
 			productReference = 55F137032CE6387F0050F228 /* PlacesErrorExample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		55F137182CE638810050F228 /* PlacesErrorExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55F137312CE638810050F228 /* Build configuration list for PBXNativeTarget "PlacesErrorExampleTests" */;
-			buildPhases = (
-				55F137152CE638810050F228 /* Sources */,
-				55F137162CE638810050F228 /* Frameworks */,
-				55F137172CE638810050F228 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55F1371B2CE638810050F228 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				55F1371C2CE638810050F228 /* PlacesErrorExampleTests */,
-			);
-			name = PlacesErrorExampleTests;
-			packageProductDependencies = (
-			);
-			productName = PlacesErrorExampleTests;
-			productReference = 55F137192CE638810050F228 /* PlacesErrorExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		55F137222CE638810050F228 /* PlacesErrorExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55F137342CE638810050F228 /* Build configuration list for PBXNativeTarget "PlacesErrorExampleUITests" */;
-			buildPhases = (
-				55F1371F2CE638810050F228 /* Sources */,
-				55F137202CE638810050F228 /* Frameworks */,
-				55F137212CE638810050F228 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55F137252CE638810050F228 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				55F137262CE638810050F228 /* PlacesErrorExampleUITests */,
-			);
-			name = PlacesErrorExampleUITests;
-			packageProductDependencies = (
-			);
-			productName = PlacesErrorExampleUITests;
-			productReference = 55F137232CE638810050F228 /* PlacesErrorExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,14 +122,6 @@
 				TargetAttributes = {
 					55F137022CE6387F0050F228 = {
 						CreatedOnToolsVersion = 16.1;
-					};
-					55F137182CE638810050F228 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 55F137022CE6387F0050F228;
-					};
-					55F137222CE638810050F228 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 55F137022CE6387F0050F228;
 					};
 				};
 			};
@@ -214,8 +140,6 @@
 			projectRoot = "";
 			targets = (
 				55F137022CE6387F0050F228 /* PlacesErrorExample */,
-				55F137182CE638810050F228 /* PlacesErrorExampleTests */,
-				55F137222CE638810050F228 /* PlacesErrorExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,21 +152,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55F137172CE638810050F228 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55F137212CE638810050F228 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F1CA65EB09771EF05A96BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlacesErrorExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A8353EE30858E007B37E04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlacesErrorExample/Pods-PlacesErrorExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlacesErrorExample/Pods-PlacesErrorExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlacesErrorExample/Pods-PlacesErrorExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55F136FF2CE6387F0050F228 /* Sources */ = {
@@ -252,49 +204,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55F137152CE638810050F228 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55F1371F2CE638810050F228 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		55F1371B2CE638810050F228 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55F137022CE6387F0050F228 /* PlacesErrorExample */;
-			targetProxy = 55F1371A2CE638810050F228 /* PBXContainerItemProxy */;
-		};
-		55F137252CE638810050F228 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55F137022CE6387F0050F228 /* PlacesErrorExample */;
-			targetProxy = 55F137242CE638810050F228 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		55F1372D2CE638810050F228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB137E5E51580E97AAB7282A /* Pods-PlacesErrorExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4FA9MTF5KF;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlacesErrorExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,17 +238,18 @@
 		};
 		55F1372E2CE638810050F228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06028241FADFE7399D45A01 /* Pods-PlacesErrorExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4FA9MTF5KF;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlacesErrorExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,78 +384,6 @@
 			};
 			name = Release;
 		};
-		55F137322CE638810050F228 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4FA9MTF5KF;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = No.PlacesErrorExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlacesErrorExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlacesErrorExample";
-			};
-			name = Debug;
-		};
-		55F137332CE638810050F228 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4FA9MTF5KF;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = No.PlacesErrorExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlacesErrorExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlacesErrorExample";
-			};
-			name = Release;
-		};
-		55F137352CE638810050F228 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4FA9MTF5KF;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = No.PlacesErrorExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PlacesErrorExample;
-			};
-			name = Debug;
-		};
-		55F137362CE638810050F228 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4FA9MTF5KF;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = No.PlacesErrorExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PlacesErrorExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -546,24 +401,6 @@
 			buildConfigurations = (
 				55F1372D2CE638810050F228 /* Debug */,
 				55F1372E2CE638810050F228 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55F137312CE638810050F228 /* Build configuration list for PBXNativeTarget "PlacesErrorExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55F137322CE638810050F228 /* Debug */,
-				55F137332CE638810050F228 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55F137342CE638810050F228 /* Build configuration list for PBXNativeTarget "PlacesErrorExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55F137352CE638810050F228 /* Debug */,
-				55F137362CE638810050F228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
